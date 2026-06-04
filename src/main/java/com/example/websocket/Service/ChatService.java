@@ -1,7 +1,7 @@
-package com.example.websocket;
+package com.example.websocket.Service;
 
-import com.example.websocket.ChatMessage;
-import com.example.websocket.ChatRepository;
+import com.example.websocket.Entity.ChatMessage;
+import com.example.websocket.Repository.ChatRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 

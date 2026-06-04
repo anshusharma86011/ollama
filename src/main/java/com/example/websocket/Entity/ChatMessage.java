@@ -1,4 +1,4 @@
-package com.example.websocket;
+package com.example.websocket.Entity;
 
 import jakarta.persistence.*;
 import lombok.Data;
@@ -12,6 +12,7 @@ public class ChatMessage {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
+
     private Long id;
 
     private String senderId;

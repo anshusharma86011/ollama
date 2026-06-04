@@ -1,7 +1,7 @@
-package com.example.websocket;
+package com.example.websocket.Controller;
 
-import com.example.websocket.ChatMessage;
-import com.example.websocket.ChatService;
+import com.example.websocket.Entity.ChatMessage;
+import com.example.websocket.Service.ChatService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.messaging.handler.annotation.MessageMapping;
 import org.springframework.messaging.handler.annotation.SendTo;

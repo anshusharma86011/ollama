@@ -1,5 +1,7 @@
-package com.example.websocket;
+package com.example.websocket.Controller;
 
+import com.example.websocket.Entity.ChatMessage;
+import com.example.websocket.Service.ChatService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.GetMapping;
