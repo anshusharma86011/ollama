@@ -2,7 +2,9 @@ package com.example.websocket.Controller;
 
 
 import com.example.websocket.Entity.ChatMessage;
+import com.example.websocket.Entity.GroupMessage;
 import com.example.websocket.Service.ChatService;
+import com.example.websocket.Service.GroupChatService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -26,4 +28,6 @@ public class HistoryController {
                 user1,
                 user2);
     }
+
+
 }

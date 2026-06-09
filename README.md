@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 # Websocket
+=======
+# Groupchatbot-backend
+>>>>>>> adebd1d1427a638e57a2f5123d07da2fbebd4558
 
 
 
@@ -15,14 +19,22 @@ Already a pro? Just edit this README.md and make it your own. Want to make it ea
 
 ```
 cd existing_repo
+<<<<<<< HEAD
 git remote add origin https://gitlab.com/brijeshbaghel6258/websocket.git
+=======
+git remote add origin https://gitlab.com/brijeshbaghel6258/groupchatbot-backend.git
+>>>>>>> adebd1d1427a638e57a2f5123d07da2fbebd4558
 git branch -M main
 git push -uf origin main
 ```
 
 ## Integrate with your tools
 
+<<<<<<< HEAD
 * [Set up project integrations](https://gitlab.com/brijeshbaghel6258/websocket/-/settings/integrations)
+=======
+* [Set up project integrations](https://gitlab.com/brijeshbaghel6258/groupchatbot-backend/-/settings/integrations)
+>>>>>>> adebd1d1427a638e57a2f5123d07da2fbebd4558
 
 ## Collaborate with your team
 
